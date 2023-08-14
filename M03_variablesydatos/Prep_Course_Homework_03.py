@@ -7,13 +7,15 @@
 
 # In[7]:
 
+var = 5
+print(var)
 
 
 
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
-
+type(8.5)
 
 
 
@@ -22,21 +24,21 @@
 
 # In[8]:
 
-
+type(var)
 
 
 
 # 4) Crear una variable que contenga tu nombre
 
 # In[2]:
-
+name = "Rogelio"
 
 
 
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
-
+complex = 2+4j
 
 
 
@@ -45,7 +47,7 @@
 
 # In[4]:
 
-
+type(complex)
 
 
 
@@ -61,14 +63,16 @@ pi = 3.1416
 
 # In[3]:
 
-
+varString = 'True'
+varBool = True
 
 
 
 # 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
-
+type(varString)
+type(varBool)
 
 
 
@@ -77,7 +81,7 @@ pi = 3.1416
 
 # In[1]:
 
-
+suma = 1 +6.3
 
 
 
@@ -85,14 +89,14 @@ pi = 3.1416
 
 # In[2]:
 
-
+sumComplex = (2+4j) + (7+2j)
 
 
 
 # 12) Realizar una operación de suma de un número real y otro complejo
 
 # In[4]:
-
+sumComplexx = 8 + (9+3j)
 
 
 
@@ -101,21 +105,22 @@ pi = 3.1416
 
 # In[5]:
 
-
+mult = 7*8
 
 
 
 # 14) Mostrar el resultado de elevar 2 a la octava potencia
 
 # In[6]:
-
-
+potencia = 2**8
+print(potencia)
 
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
 
 # In[8]:
-
+cos = 27%4
+print(cos)
 
 
 
@@ -123,7 +128,8 @@ pi = 3.1416
 # 16) De la división anterior solamente mostrar la parte entera
 
 # In[9]:
-
+cos = 27//4
+print(cos)
 
 
 
@@ -131,7 +137,8 @@ pi = 3.1416
 # 17) De la división de 27 entre 4 mostrar solamente el resto
 
 # In[1]:
-
+cos = 27/4
+print(cos)
 
 
 
@@ -147,7 +154,8 @@ pi = 3.1416
 # 19) Utilizar el operador "+" en una operación donde intervengan solo variables alfanuméricas
 
 # In[3]:
-
+nombre = "Rogelio " + "Cortez"
+print(nombre)
 
 
 
@@ -155,7 +163,7 @@ pi = 3.1416
 # 20) Evaluar si "2" es igual a 2. ¿Por qué ocurre eso?
 
 # In[4]:
-
+"2"==2
 
 
 
@@ -163,7 +171,7 @@ pi = 3.1416
 # 21) Utilizar las funciones de cambio de tipo de dato, para que la validación del punto 20 resulte verdadera
 
 # In[11]:
-
+int("2")==2
 
 
 
@@ -172,7 +180,7 @@ pi = 3.1416
 
 # In[12]:
 
-
+#Porque no se puede transformar un alfanumerico en un numerico
 
 
 
@@ -180,7 +188,9 @@ pi = 3.1416
 
 # In[15]:
 
-
+val = 3
+val -= 1
+print(val)
 
 
 
@@ -188,7 +198,8 @@ pi = 3.1416
 
 # In[29]:
 
-
+binary = 1<<2
+print(binary)
 
 
 
@@ -196,7 +207,7 @@ pi = 3.1416
 
 # In[23]:
 
-
+#No esta permitido porque el tipo de los valores es diferente , uno es un entero y el otro es una cadena de caracteres
 
 
 
@@ -205,5 +216,10 @@ pi = 3.1416
 
 # In[30]:
 
+num = 3
+palabra = "hola"
+
+print(palabra * num)
 
 
+# %%
